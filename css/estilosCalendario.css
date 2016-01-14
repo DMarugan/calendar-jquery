@@ -1,0 +1,71 @@
+.sinBorde table{
+		border-collapse: collapse;
+	empty-cells: hide;
+
+}
+
+th{
+	
+text-align: center;
+
+}
+td{
+	width:72px;
+	height:20px;
+	text-align: center;
+}
+.weekend{
+	background-color: #BA5155;
+	color: #fff;
+	
+}
+.vacio{
+	border:none;
+	empty-cells: hide;
+}
+.day{
+	cursor:pointer;
+}
+.day:hover{
+	background-color: #CED8F6;
+	
+}
+.dayWeekEnd{
+	color: #a94442;
+}
+.moveCalendar{
+	cursor: pointer;
+	font-weight: bold;
+}
+.moveCalendar:hover{
+	color: #CED8F6;
+}
+.nameMonth{
+	width:50px;
+}
+.selected{
+	color:#0174DF;
+	background-color: #BCB1C9;
+}
+.notSelected{
+	color:#585858;
+
+}
+.laboralDay{
+	background-color:#81BEF7;
+	color: #fff;
+}
+.contenedor{
+	width:50px;
+	border:2px solid black;
+}
+
+.container {
+    width: 306px;
+    height:auto;
+    text-align: center;
+    padding:5px;  /* dejamos una separación entre borde y texto */
+    font-family: verdana;
+    border: 2px solid black;
+    z-index: 1;
+}
