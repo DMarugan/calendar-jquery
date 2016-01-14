@@ -5,21 +5,10 @@ A calendar created with jquery and css, every change that you can provide me for
 ----------------------------
 # 
 Ejemplo de uso:
-<pre>
-<html>
 
+$ $( document ).ready(function() {
+$  $("#sacarFecha").click(function(){
+$		calendario("sacarFecha");
+$  });
+$ });
 
-	<head>
-	<script type="text/javascript">
-$( document ).ready(function() {
-  $("#sacarFecha").click(function(){
-		calendario("sacarFecha");
-  });
-});
-  </script>
-	</head>
-	<body>
-		<input type="text" id="sacarFecha">
-	</body>
-</html>
-</pre>
