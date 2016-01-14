@@ -10,4 +10,9 @@ $( document ).ready(function() {
   });
 });
   </script>
-
+<html>
+	<head></head>
+	<body>
+		<input type="text" id="sacarFecha">
+	</body>
+</html>
