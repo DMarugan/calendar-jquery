@@ -11,4 +11,6 @@ $  $("#sacarFecha").click(function(){
 $		calendario("sacarFecha");
 $  });
 $ });
-
+ $ pip-3.3 install hovercraft
+    $ hovercraft charla.rst html
+    $ firefox html/index.html
